@@ -1,0 +1,14 @@
+Create a program that will keep track of items for a shopping list.
+The program should start with an empty list and keep asking for new items until nothing is entered (no input followed 
+by enter/return key).
+
+The program should then display the full shopping list.
+
+buy_list = []
+x=0
+while x==0: 
+  z=input("What do you want to buy ?")
+  buy_list.append(z) 
+  if z=='': 
+    print(buy_list) 
+    break
