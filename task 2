@@ -1,0 +1,9 @@
+Write a short program to create a list of squares for numbers up to 10.
+Start with an empty list called squares and append squares of numbers from 0 up to 10.
+
+Print the contents of your list.
+
+squares = [] 
+for x in range(0,10):
+  squares.append(x**2)
+  print(squares)
